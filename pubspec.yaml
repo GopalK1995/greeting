@@ -1,0 +1,50 @@
+name: cinelog
+description: Your personal movie collection — track watched movies and watchlist across platforms.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.1.0
+  google_sign_in: ^6.2.1
+
+  # Networking
+  http: ^1.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+
+  # Deep linking & URL launching
+  url_launcher: ^6.3.0
+
+  # Local storage
+  shared_preferences: ^2.2.3
+
+  # Utils
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
